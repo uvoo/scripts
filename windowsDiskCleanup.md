@@ -1,0 +1,1 @@
+powershell.exe -NonInteractive -NoProfile -Command "invoke-webrequest -Uri https://raw.githubusercontent.com/twdsje/scripts/main/windowsDiskCleanup.ps1 -outfile C:\\windows\\temp\\disk_cleanup.ps1"; powershell.exe -NonInteractive -NoProfile -ErrorAction Stop -ExecutionPolicy Bypass -f C:\windows\temp\disk_cleanup.ps1
