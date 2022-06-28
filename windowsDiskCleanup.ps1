@@ -1,7 +1,9 @@
 # Powershell script to delete temporary windows files to free up disk space
 
+$ErrorActionPreference = "Stop"
+
 $name = "windowsDiskCleanup"
-$version = "0.2.22"
+$version = "0.2.23"
 
 # $objShell = New-Object -ComObject Shell.Application
 # $recycle_bin = $objShell.Namespace(0xA)
